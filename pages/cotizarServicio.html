@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="estilos.css">
+  <title>Formulario Registro</title>
+  <div>
+    <input class="botons" type="button" onclick="history.back()" name="volver atrás" value="volver atrás">
+
+</div>
+</head>
+
+    <body>
+        <section class="form-register">
+                <input class="controls" type="text" name="name" id="name" placeholder="Ingrese su nombre y apellidos">
+                <input class="controls" type="email" name="email" id="email" placeholder="Ingrese su Correo de contacto">
+                <label class="controls" for="tipo">Tipo Vehículo </label>
+                <select class="controls" name="tipo" id="tipo">
+                    <option class="controls" value="">Seleccione</option>
+                    <option class="controls" value="1">Carro</option>
+                    <option class="controls" value="2">Moto</option>        
+                </select>
+                <p>Estoy de acuerdo con <a href="#">Terminos y Condiciones</a></p>
+                <input class="botons"  type="submit" value="Cotizar Servicio">
+                <p>Los campos con asterisco (*) deben ser rellenados para  poder informarle optimamente</p>
+        </section>
+        
+    </body>
+</html>
